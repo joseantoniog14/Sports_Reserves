@@ -33,20 +33,21 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
 
-public class Horas_Futbol extends AppCompatActivity {
-    Button btn9_10_futbol, btn10_11_futbol, btn11_12_futbol, btn12_13_futbol,
-            btn13_14_futbol, btn14_15_futbol, btn15_16_futbol, btn16_17_futbol,
-            btn17_18_futbol, btn18_19_futbol, btn19_20_futbol, btn20_21_futbol;
+public class Horas_Gimnasio extends AppCompatActivity {
+
+    Button btn9_10_gimnasio, btn10_11_gimnasio, btn11_12_gimnasio, btn12_13_gimnasio,
+            btn13_14_gimnasio, btn14_15_gimnasio, btn15_16_gimnasio, btn16_17_gimnasio,
+            btn17_18_gimnasio, btn18_19_gimnasio, btn19_20_gimnasio, btn20_21_gimnasio;
     AppPreferences preferences;
     ImageButton btnAtras;
-    private ReservasList reservasList = new ReservasList();
-    ArrayList<Button> botonesList = new ArrayList<Button>();
+    private ReservasList reservasList6 = new ReservasList();
+    ArrayList<Button> botonesList6 = new ArrayList<Button>();
     String hora;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_horas_futbol);
+        setContentView(R.layout.activity_horas_gimnasio);
 
         //Compruebo conexión
         ConnectivityManager cm = null;
@@ -58,174 +59,174 @@ public class Horas_Futbol extends AppCompatActivity {
             Toast.makeText(this, "Tienes conexión", Toast.LENGTH_SHORT).show();
             preferences = new AppPreferences(getSharedPreferences("local", MODE_PRIVATE));
 
-            btn9_10_futbol = findViewById(R.id.btn9_10_futbol);
-            btn10_11_futbol = findViewById(R.id.btn10_11_futbol);
-            btn11_12_futbol = findViewById(R.id.btn11_12_futbol);
-            btn12_13_futbol = findViewById(R.id.btn12_13_futbol);
-            btn13_14_futbol = findViewById(R.id.btn13_14_futbol);
-            btn14_15_futbol = findViewById(R.id.btn14_15_futbol);
-            btn15_16_futbol = findViewById(R.id.btn15_16_futbol);
-            btn16_17_futbol = findViewById(R.id.btn16_17_futbol);
-            btn17_18_futbol = findViewById(R.id.btn17_18_futbol);
-            btn18_19_futbol = findViewById(R.id.btn18_19_futbol);
-            btn19_20_futbol = findViewById(R.id.btn19_20_futbol);
-            btn20_21_futbol = findViewById(R.id.btn20_21_futbol);
+            btn9_10_gimnasio = findViewById(R.id.btn9_10_gimnasio);
+            btn10_11_gimnasio = findViewById(R.id.btn10_11_gimnasio);
+            btn11_12_gimnasio = findViewById(R.id.btn11_12_gimnasio);
+            btn12_13_gimnasio = findViewById(R.id.btn12_13_gimnasio);
+            btn13_14_gimnasio = findViewById(R.id.btn13_14_gimnasio);
+            btn14_15_gimnasio = findViewById(R.id.btn14_15_gimnasio);
+            btn15_16_gimnasio = findViewById(R.id.btn15_16_gimnasio);
+            btn16_17_gimnasio = findViewById(R.id.btn16_17_gimnasio);
+            btn17_18_gimnasio = findViewById(R.id.btn17_18_gimnasio);
+            btn18_19_gimnasio = findViewById(R.id.btn18_19_gimnasio);
+            btn19_20_gimnasio = findViewById(R.id.btn19_20_gimnasio);
+            btn20_21_gimnasio = findViewById(R.id.btn20_21_gimnasio);
             btnAtras = findViewById(R.id.btn_Atras);
 
-            botonesList.add(btn9_10_futbol);
-            botonesList.add(btn10_11_futbol);
-            botonesList.add(btn11_12_futbol);
-            botonesList.add(btn12_13_futbol);
-            botonesList.add(btn13_14_futbol);
-            botonesList.add(btn14_15_futbol);
-            botonesList.add(btn15_16_futbol);
-            botonesList.add(btn16_17_futbol);
-            botonesList.add(btn17_18_futbol);
-            botonesList.add(btn18_19_futbol);
-            botonesList.add(btn19_20_futbol);
-            botonesList.add(btn20_21_futbol);
+            botonesList6.add(btn9_10_gimnasio);
+            botonesList6.add(btn10_11_gimnasio);
+            botonesList6.add(btn11_12_gimnasio);
+            botonesList6.add(btn12_13_gimnasio);
+            botonesList6.add(btn13_14_gimnasio);
+            botonesList6.add(btn14_15_gimnasio);
+            botonesList6.add(btn15_16_gimnasio);
+            botonesList6.add(btn16_17_gimnasio);
+            botonesList6.add(btn17_18_gimnasio);
+            botonesList6.add(btn18_19_gimnasio);
+            botonesList6.add(btn19_20_gimnasio);
+            botonesList6.add(btn20_21_gimnasio);
 
-            btn9_10_futbol.setOnClickListener(new View.OnClickListener() {
+            btn9_10_gimnasio.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
                     hora = "9";
-                    Horas_Futbol.Insertar insertar = new Horas_Futbol.Insertar();
+                    Horas_Gimnasio.Insertar insertar = new Horas_Gimnasio.Insertar();
                     insertar.execute();
-                    btn9_10_futbol.setBackgroundColor(Color.RED);
-                    btn9_10_futbol.setEnabled(false);
+                    btn9_10_gimnasio.setBackgroundColor(Color.RED);
+                    btn9_10_gimnasio.setEnabled(false);
 
                 }
             });
-            btn10_11_futbol.setOnClickListener(new View.OnClickListener() {
+            btn10_11_gimnasio.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
                     hora = "10";
-                    Horas_Futbol.Insertar insertar = new Horas_Futbol.Insertar();
+                    Horas_Gimnasio.Insertar insertar = new Horas_Gimnasio.Insertar();
                     insertar.execute();
-                    btn10_11_futbol.setBackgroundColor(Color.RED);
-                    btn10_11_futbol.setEnabled(false);
+                    btn10_11_gimnasio.setBackgroundColor(Color.RED);
+                    btn10_11_gimnasio.setEnabled(false);
 
                 }
             });
-            btn11_12_futbol.setOnClickListener(new View.OnClickListener() {
+            btn11_12_gimnasio.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
                     hora = "11";
-                    Horas_Futbol.Insertar insertar = new Horas_Futbol.Insertar();
+                    Horas_Gimnasio.Insertar insertar = new Horas_Gimnasio.Insertar();
                     insertar.execute();
-                    btn11_12_futbol.setBackgroundColor(Color.RED);
-                    btn11_12_futbol.setEnabled(false);
+                    btn11_12_gimnasio.setBackgroundColor(Color.RED);
+                    btn11_12_gimnasio.setEnabled(false);
 
                 }
             });
-            btn12_13_futbol.setOnClickListener(new View.OnClickListener() {
+            btn12_13_gimnasio.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
                     hora = "12";
-                    Horas_Futbol.Insertar insertar = new Horas_Futbol.Insertar();
+                    Horas_Gimnasio.Insertar insertar = new Horas_Gimnasio.Insertar();
                     insertar.execute();
-                    btn12_13_futbol.setBackgroundColor(Color.RED);
-                    btn12_13_futbol.setEnabled(false);
+                    btn12_13_gimnasio.setBackgroundColor(Color.RED);
+                    btn12_13_gimnasio.setEnabled(false);
 
                 }
             });
-            btn13_14_futbol.setOnClickListener(new View.OnClickListener() {
+            btn13_14_gimnasio.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
                     hora = "13";
-                    Horas_Futbol.Insertar insertar = new Horas_Futbol.Insertar();
+                    Horas_Gimnasio.Insertar insertar = new Horas_Gimnasio.Insertar();
                     insertar.execute();
-                    btn13_14_futbol.setBackgroundColor(Color.RED);
-                    btn13_14_futbol.setEnabled(false);
+                    btn13_14_gimnasio.setBackgroundColor(Color.RED);
+                    btn13_14_gimnasio.setEnabled(false);
 
                 }
             });
-            btn14_15_futbol.setOnClickListener(new View.OnClickListener() {
+            btn14_15_gimnasio.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
                     hora = "14";
-                    Horas_Futbol.Insertar insertar = new Horas_Futbol.Insertar();
+                    Horas_Gimnasio.Insertar insertar = new Horas_Gimnasio.Insertar();
                     insertar.execute();
-                    btn14_15_futbol.setBackgroundColor(Color.RED);
-                    btn14_15_futbol.setEnabled(false);
+                    btn14_15_gimnasio.setBackgroundColor(Color.RED);
+                    btn14_15_gimnasio.setEnabled(false);
 
                 }
             });
-            btn15_16_futbol.setOnClickListener(new View.OnClickListener() {
+            btn15_16_gimnasio.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
                     hora = "15";
-                    Horas_Futbol.Insertar insertar = new Horas_Futbol.Insertar();
+                    Horas_Gimnasio.Insertar insertar = new Horas_Gimnasio.Insertar();
                     insertar.execute();
-                    btn15_16_futbol.setBackgroundColor(Color.RED);
-                    btn15_16_futbol.setEnabled(false);
+                    btn15_16_gimnasio.setBackgroundColor(Color.RED);
+                    btn15_16_gimnasio.setEnabled(false);
 
                 }
             });
-            btn16_17_futbol.setOnClickListener(new View.OnClickListener() {
+            btn16_17_gimnasio.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
                     hora = "16";
-                    Horas_Futbol.Insertar insertar = new Horas_Futbol.Insertar();
+                    Horas_Gimnasio.Insertar insertar = new Horas_Gimnasio.Insertar();
                     insertar.execute();
-                    btn16_17_futbol.setBackgroundColor(Color.RED);
-                    btn16_17_futbol.setEnabled(false);
+                    btn16_17_gimnasio.setBackgroundColor(Color.RED);
+                    btn16_17_gimnasio.setEnabled(false);
 
                 }
             });
-            btn17_18_futbol.setOnClickListener(new View.OnClickListener() {
+            btn17_18_gimnasio.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
                     hora = "17";
-                    Horas_Futbol.Insertar insertar = new Horas_Futbol.Insertar();
+                    Horas_Gimnasio.Insertar insertar = new Horas_Gimnasio.Insertar();
                     insertar.execute();
-                    btn17_18_futbol.setBackgroundColor(Color.RED);
-                    btn17_18_futbol.setEnabled(false);
+                    btn17_18_gimnasio.setBackgroundColor(Color.RED);
+                    btn17_18_gimnasio.setEnabled(false);
 
                 }
             });
-            btn18_19_futbol.setOnClickListener(new View.OnClickListener() {
+            btn18_19_gimnasio.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
                     hora = "18";
-                    Horas_Futbol.Insertar insertar = new Horas_Futbol.Insertar();
+                    Horas_Gimnasio.Insertar insertar = new Horas_Gimnasio.Insertar();
                     insertar.execute();
-                    btn18_19_futbol.setBackgroundColor(Color.RED);
-                    btn18_19_futbol.setEnabled(false);
+                    btn18_19_gimnasio.setBackgroundColor(Color.RED);
+                    btn18_19_gimnasio.setEnabled(false);
 
                 }
             });
-            btn19_20_futbol.setOnClickListener(new View.OnClickListener() {
+            btn19_20_gimnasio.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
                     hora = "19";
-                    Horas_Futbol.Insertar insertar = new Horas_Futbol.Insertar();
+                    Horas_Gimnasio.Insertar insertar = new Horas_Gimnasio.Insertar();
                     insertar.execute();
-                    btn19_20_futbol.setBackgroundColor(Color.RED);
-                    btn19_20_futbol.setEnabled(false);
+                    btn19_20_gimnasio.setBackgroundColor(Color.RED);
+                    btn19_20_gimnasio.setEnabled(false);
 
                 }
             });
-            btn20_21_futbol.setOnClickListener(new View.OnClickListener() {
+            btn20_21_gimnasio.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
                     hora = "20";
-                    Horas_Futbol.Insertar insertar = new Horas_Futbol.Insertar();
+                    Horas_Gimnasio.Insertar insertar = new Horas_Gimnasio.Insertar();
                     insertar.execute();
-                    btn20_21_futbol.setBackgroundColor(Color.RED);
-                    btn20_21_futbol.setEnabled(false);
+                    btn20_21_gimnasio.setBackgroundColor(Color.RED);
+                    btn20_21_gimnasio.setEnabled(false);
 
                 }
             });
@@ -236,8 +237,8 @@ public class Horas_Futbol extends AppCompatActivity {
                     startActivity(intent);
                 }
             });
-            Horas_Futbol.obtenerReservas obtener2 = new Horas_Futbol.obtenerReservas();
-            obtener2.execute();
+            Horas_Gimnasio.obtenerReservas obtener6 = new Horas_Gimnasio.obtenerReservas();
+            obtener6.execute();
         } else {
             Toast.makeText(this, "No tienes conexión", Toast.LENGTH_SHORT).show();
             new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
@@ -262,10 +263,9 @@ public class Horas_Futbol extends AppCompatActivity {
             URL url;
             HttpURLConnection httpURLConnection;
             final String usuario = preferences.getUsername();
-            final String cod_instalacion = "1";
+            final String cod_instalacion = "6";
             try {
-                url = new URL("https://sportsreserves.000webhostapp.com/Reservas.php?NULL&login_usuario=" + usuario
-                        + "&codigo_instalacion=" + cod_instalacion + "&fecha=" + fecha + "&hora=" + hora);
+                url = new URL("https://sportsreserves.000webhostapp.com/Reservas.php?NULL&login_usuario=" + usuario + "&codigo_instalacion=" + cod_instalacion + "&fecha=" + fecha + "&hora=" + hora);
                 httpURLConnection = (HttpURLConnection) url.openConnection();
                 if (httpURLConnection.getResponseCode() == HttpURLConnection.HTTP_OK) {
 
@@ -298,16 +298,16 @@ public class Horas_Futbol extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(Void unused) {
-            Toast.makeText(Horas_Futbol.this, todo, Toast.LENGTH_SHORT).show();
+            Toast.makeText(Horas_Gimnasio.this, todo, Toast.LENGTH_SHORT).show();
         }
     }
 
     public class obtenerReservas extends AsyncTask<Void, Void, ReservasList> {
-        private String phpUrl = "https://sportsreserves.000webhostapp.com/mostrarReservas.php?codigo_instalacion=1";
+        private String phpUrl = "https://sportsreserves.000webhostapp.com/mostrarReservas.php?codigo_instalacion=6";
 
         @Override
         protected ReservasList doInBackground(Void... voids) {
-            ReservasList reservasList = new ReservasList();
+            ReservasList reservasList6 = new ReservasList();
             HttpURLConnection urlConnection = null;
 
             try {
@@ -326,15 +326,15 @@ public class Horas_Futbol extends AppCompatActivity {
                     stringBuilder.append(line);
                 }
                 Gson gson = new Gson();
-                reservasList = gson.fromJson(stringBuilder.toString(), ReservasList.class);
-                Log.v("reservaslist", reservasList.toString());
-                for (int i = 0; i < reservasList.getDatos().size(); i++) {
-                    if (Integer.parseInt(reservasList.getDatos().get(i).getHora()) > 0 && Integer.parseInt(reservasList.getDatos().get(i).getHora()) < 10) {
-                        reservasList.getDatos().get(i).setHora("0" + reservasList.getDatos().get(i).getHora() + ":00-" + (Integer.parseInt(reservasList.getDatos().get(i).getHora()) + 1) + ":00");
+                reservasList6 = gson.fromJson(stringBuilder.toString(), ReservasList.class);
+                Log.v("reservaslist", reservasList6.toString());
+                for (int i = 0; i < reservasList6.getDatos().size(); i++) {
+                    if (Integer.parseInt(reservasList6.getDatos().get(i).getHora()) > 0 && Integer.parseInt(reservasList6.getDatos().get(i).getHora()) < 10) {
+                        reservasList6.getDatos().get(i).setHora("0" + reservasList6.getDatos().get(i).getHora() + ":00-" + (Integer.parseInt(reservasList6.getDatos().get(i).getHora()) + 1) + ":00");
                     } else {
-                        reservasList.getDatos().get(i).setHora(reservasList.getDatos().get(i).getHora() + ":00-" + (Integer.parseInt(reservasList.getDatos().get(i).getHora()) + 1) + ":00");
+                        reservasList6.getDatos().get(i).setHora(reservasList6.getDatos().get(i).getHora() + ":00-" + (Integer.parseInt(reservasList6.getDatos().get(i).getHora()) + 1) + ":00");
                     }
-                    Log.v("reserva", reservasList.getDatos().get(i).getHora());
+                    Log.v("reserva", reservasList6.getDatos().get(i).getHora());
                 }
 
             } catch (Exception e) {
@@ -345,28 +345,26 @@ public class Horas_Futbol extends AppCompatActivity {
                 }
             }
 
-            return reservasList;
+            return reservasList6;
         }
 
 
         @Override
-        protected void onPostExecute(ReservasList reservasList) {
+        protected void onPostExecute(ReservasList reservasList6) {
             String username = preferences.getUsername();
 
 
             //reservasList.getDatos().get(i).getLoginUsuario().equals(username)
-            for (int i = 0; i < botonesList.size(); i++) {
-                for (int j = 0; j < reservasList.getDatos().size(); j++) {
-                    if (botonesList.get(i).getText().equals(reservasList.getDatos().get(j).getHora())
-                            && reservasList.getDatos().get(j).getLoginUsuario().equals(username)) {
+            for (int i = 0; i < botonesList6.size(); i++) {
+                for (int j = 0; j < reservasList6.getDatos().size(); j++) {
+                    if (botonesList6.get(i).getText().equals(reservasList6.getDatos().get(j).getHora()) && reservasList6.getDatos().get(j).getLoginUsuario().equals(username)) {
                         //pintar boton color rojo
-                        botonesList.get(i).setBackgroundColor(Color.RED);
-                        botonesList.get(i).setEnabled(false);
-                    } else if (botonesList.get(i).getText().equals(reservasList.getDatos().get(j).getHora())
-                            && !reservasList.getDatos().get(j).getLoginUsuario().equals(username)) {
+                        botonesList6.get(i).setBackgroundColor(Color.RED);
+                        botonesList6.get(i).setEnabled(false);
+                    } else if (botonesList6.get(i).getText().equals(reservasList6.getDatos().get(j).getHora()) && !reservasList6.getDatos().get(j).getLoginUsuario().equals(username)) {
                         //pintar boton color verde y desabilitarlo
-                        botonesList.get(i).setBackgroundColor(Color.GRAY);
-                        botonesList.get(i).setEnabled(false);
+                        botonesList6.get(i).setBackgroundColor(Color.GRAY);
+                        botonesList6.get(i).setEnabled(false);
                     }
                 }
             }

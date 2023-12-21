@@ -9,306 +9,138 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47ee1a46-080b-4794-be4c-546db3cc9149" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Adaptadores/app/src/main/res/drawable/kiwi.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Adaptadores/app/src/main/res/drawable/manzana.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Adaptadores/app/src/main/res/drawable/pera.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Adaptadores/app/src/main/res/drawable/pina.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Adaptadores/app/src/main/res/drawable/platano.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Adaptadores/app/src/main/res/drawable/uva.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Adaptadores/app/src/main/res/layout/frutas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AudioYVideo/app/src/main/res/raw/concentrao.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AudioYVideo/app/src/main/res/raw/magia.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AudioYVideo/app/src/main/res/raw/musica.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AudioYVideo/app/src/main/res/raw/paco.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/ic_launcher-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-hdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-mdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-xhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-xxhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/main/java/com/example/cuentacopas_joseantonio/Copas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/main/res/layout-land/activity_copas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/main/res/layout/activity_copas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuentaCopas_JoseAntonio/app/src/main/res/values-en/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuardandoDatosPermanentes/app/src/main/java/com/example/guardandodatospermanentes/DialogoFecha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuardandoDatosPermanentes/app/src/main/java/com/example/guardandodatospermanentes/DialogoHora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAlarmas/app/src/main/java/com/example/jugandoconalarmas/Alarma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/androidTest/java/com/example/jugandoconanimaciones/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/java/com/example/jugandoconanimaciones/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/anim/deslizar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/anim/desvanecimiento.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/anim/parpadeo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/anim/rotacion.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/anim/traslacion.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/anim/zoom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/drawable-v24/coche.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/app/src/test/java/com/example/jugandoconanimaciones/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAnimaciones/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConAplicacionesExternas/app/src/main/res/drawable/mapa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/androidTest/java/com/example/jugandoconnotificaciones/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/java/com/example/jugandoconnotificaciones/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/drawable-v24/albert.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/app/src/test/java/com/example/jugandoconnotificaciones/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoConNotificaciones/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JugandoServiciosYBroadcast/app/src/main/java/com/example/jugandoserviciosybroadcast/ServicioCrono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/icono-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-anydpi-v26/icono.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-anydpi-v26/icono_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-hdpi/icono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-hdpi/icono_cartelera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-hdpi/icono_foreground_nuevo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-hdpi/icono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-hdpi/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-mdpi/icono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-mdpi/icono_cartelera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-mdpi/icono_foreground_nuevo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-mdpi/icono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-mdpi/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xhdpi/icono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xhdpi/icono_cartelera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xhdpi/icono_foreground_nuevo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xhdpi/icono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xhdpi/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xxhdpi/icono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xxhdpi/icono_cartelera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xxhdpi/icono_foreground_nuevo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xxhdpi/icono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xxhdpi/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xxxhdpi/icono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xxxhdpi/icono_cartelera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xxxhdpi/icono_foreground_nuevo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xxxhdpi/icono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/mipmap-xxxhdpi/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/values/fondo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/values/icono_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/values/icono_background_cartelera.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/debug/res/values/icono_background_nuevo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/main/res/drawable/bd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/main/res/drawable/cartelera.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/main/res/drawable/logoapp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalDI_JoseAntonio/app/src/main/res/drawable/moviedb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaFinalJoseAntonio/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/androidTest/java/com/example/practicagenerarpruebas/MainActivityEspresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/androidTest/java/com/example/practicagenerarpruebas/OperacionesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/ic_launcher-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/miicono-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-anydpi-v26/miicono.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-anydpi-v26/miicono_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-hdpi/miicono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-hdpi/miicono_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-hdpi/miicono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-mdpi/miicono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-mdpi/miicono_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-mdpi/miicono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xhdpi/miicono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xhdpi/miicono_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xhdpi/miicono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xxhdpi/miicono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xxhdpi/miicono_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xxhdpi/miicono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xxxhdpi/miicono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xxxhdpi/miicono_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/mipmap-xxxhdpi/miicono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/values/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/debug/res/values/miicono_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaGenerarPruebas/app/src/main/java/com/example/practicagenerarpruebas/Operaciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/androidTest/java/com/example/sport_reserves/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/java/com/example/sport_reserves/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/app/src/test/java/com/example/sport_reserves/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sport_Reserves/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/icono-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/drawable/icono_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-anydpi-v26/icono.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-anydpi-v26/icono_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-hdpi/icono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-hdpi/icono_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-hdpi/icono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-mdpi/icono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-mdpi/icono_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-mdpi/icono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-xhdpi/icono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-xhdpi/icono_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-xhdpi/icono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-xxhdpi/icono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-xxhdpi/icono_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-xxhdpi/icono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-xxxhdpi/icono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-xxxhdpi/icono_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/mipmap-xxxhdpi/icono_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/debug/res/values/icono_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/drawable-v24/pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/drawable-v24/play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/font/alfa_slab_one.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/font/butcherman.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/raw/cadenas.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/raw/campanas.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/raw/cristal.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/raw/gato.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/raw/gotas.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/raw/grito.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/raw/pasos.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/raw/perro.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/raw/respiracion.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/raw/risa.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/values-en/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/values-es-rES/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/values/font_certs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sustos_JoseAntonio/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestEspresso/app/src/androidTest/java/com/example/testespresso/MainActivityEspresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestEspresso/app/src/main/java/com/example/testespresso/MainActivity2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestEspresso/app/src/main/java/com/example/testespresso/Operaciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestEspresso/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestEspresso/app/src/test/java/com/example/testespresso/OperacionesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prueba/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="24ac3db5-b860-40de-85eb-2ab06ae9070f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/RecuperarContrasena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/entities/PerfilUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/entities/Reserva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/entities/ReservasList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_horas_padel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_recuperar_contrasena.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-en-rGB/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/androidTest/java/com/example/sport_reserves/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/ic_launcher-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/values/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/java/com/example/sport_reserves/AnularReservas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Horas_Gimnasio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/java/com/example/sport_reserves/Contacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Horas_Tenis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/java/com/example/sport_reserves/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Horas_Natacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/java/com/example/sport_reserves/Perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Horas_Baloncesto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/java/com/example/sport_reserves/Reservas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Horas_Padel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable/drawer_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable/header_bkg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable/menu_logo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable/salir_logo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/activity_anular_reservas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_horas_gimnasio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/activity_contacto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_horas_baloncesto.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/activity_perfil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_horas_natacion.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/activity_reservas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_horas_tenis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/nav_drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/toolbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/test/java/com/example/sport_reserves/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Anular.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/AnularReservas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/AnularReservas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/AppPreferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/AppPreferences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Cargando.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Cargando.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Contacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Contacto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Horas_Futbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Horas_Futbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Perfil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/PerfilFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Registro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/ReservaDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/ReservaDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Reservas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Reservas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Salir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/SalirFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/atras.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/atras.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/anular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/contacto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/headerbkg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_slideshow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/miperfil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/reserva.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/salir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_anular_reservas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_anular_reservas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cargando.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cargando.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contacto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contacto.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_horas_futbol.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_horas_futbol.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_perfil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_perfil.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_reservas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_reservas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_anular.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_perfil.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_reservas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_salir.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_second.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_reservas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_reservas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/nav_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\jgome\.android\avd\Pixel_4_API_30.avd]" />
   <component name="ExternalProjectsData">
@@ -319,34 +151,51 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
-        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cargando.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2RnT71nfYItipsvkEPlEW5auOVr" />
+  <component name="ProjectId" id="2ZJUJYKnKW7tzXoJ4Snmv3XNCxV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="DEBUGGABLE_DEVICE" value="Pixel_4_API_30 [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.sports_reserves" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="LAYOUT" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="ToolWindowEmulator.ShowToolbar" value="false" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RegistroMisDeportes" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jgome\AndroidStudioProjects\Sports_Reserves\app\src\main\res\drawable" />
+      <recent name="C:\Users\jgome\AndroidStudioProjects\Sports_Reserves\app\src\main\res\drawable-v24" />
+    </key>
+    <key name="android.template.1740790689">
+      <recent name="com.example.sports_reserves" />
+    </key>
+    <key name="android.template.1927119917">
+      <recent name="com.example.sports_reserves" />
+    </key>
+    <key name="android.template.2049171964">
+      <recent name="com.example.sports_reserves" />
     </key>
   </component>
   <component name="RunManager">
@@ -413,11 +262,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="47ee1a46-080b-4794-be4c-546db3cc9149" name="Changes" comment="" />
-      <created>1687884688573</created>
+      <changelist id="24ac3db5-b860-40de-85eb-2ab06ae9070f" name="Changes" comment="" />
+      <created>1702139604939</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1687884688573</updated>
+      <updated>1702139604939</updated>
     </task>
     <servers />
   </component>

@@ -1,9 +1,7 @@
 package com.example.sports_reserves;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -14,69 +12,52 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonArrayRequest;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-
-import org.json.JSONArray;
 import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class Registro extends AppCompatActivity {
-    EditText txtNombre,txtUsuario,txtApellidos,txtContrasena;
-    Button btnRegistro;
-    String url;
+public class RecuperarContrasena extends AppCompatActivity {
+
+    Button btnActualizarContrasena;
+    EditText txtMiUsuario,txtNuevaContrasena1,txtNuevaContrasena2;
     ImageButton btnAtras;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registro);
+        setContentView(R.layout.activity_recuperar_contrasena);
+        txtMiUsuario=findViewById(R.id.txtMiUsuario);
+        txtNuevaContrasena1=findViewById(R.id.txtNuevaContrasena1);
+        txtNuevaContrasena2=findViewById(R.id.txtNuevaContrasena2);
+        btnActualizarContrasena=findViewById(R.id.btnActualizarContrasena);
 
-        txtNombre=findViewById(R.id.txtNombre);
-        txtUsuario=findViewById(R.id.txtUsuario);
-        txtApellidos=findViewById(R.id.txtApellidos);
-        txtContrasena=findViewById(R.id.txtContrasena);
-        btnRegistro=findViewById(R.id.btnRegistro);
         btnAtras = findViewById(R.id.btn_Atras);
 
-
-
-        btnRegistro.setOnClickListener(new View.OnClickListener() {
+        btnActualizarContrasena.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                final String username = txtUsuario.getText().toString();
-                final String nombre = txtNombre.getText().toString();
-                final String apellidos = txtApellidos.getText().toString();
-                final String contrasena = txtContrasena.getText().toString();
-                url="https://sportsreserves.000webhostapp.com/Comprobar.php?&username="+username;
-                if(txtUsuario.getText().toString().isEmpty()){
+            public void onClick(View view) {
+                if(txtMiUsuario.getText().toString().isEmpty()){
                     Toast.makeText(getApplicationContext(),"El usuario no puede estar vacío",Toast.LENGTH_SHORT).show();
                 }
-                else if(txtNombre.getText().toString().isEmpty()){
-                    Toast.makeText(getApplicationContext(),"El nombre no puede estar vacío",Toast.LENGTH_SHORT).show();
-                }
-                else if(txtApellidos.getText().toString().isEmpty()){
-                    Toast.makeText(getApplicationContext(),"Los apellidos no pueden estar vacíos",Toast.LENGTH_SHORT).show();
-                }
-                else if(txtContrasena.getText().toString().isEmpty()){
+                else if(txtNuevaContrasena1.getText().toString().isEmpty()){
                     Toast.makeText(getApplicationContext(),"La contraseña no puede estar vacía",Toast.LENGTH_SHORT).show();
                 }
-                else {
-                    Registro.ComprobarNombre comprobarNombre =new Registro.ComprobarNombre();
+                else if(txtNuevaContrasena2.getText().toString().isEmpty()){
+                    Toast.makeText(getApplicationContext(),"La repetición de contraseña no puede estar vacía",Toast.LENGTH_SHORT).show();
+                }
+                else if(txtNuevaContrasena1.getText().toString().compareTo(txtNuevaContrasena2.getText().toString())==0){
+                    ComprobarNombre comprobarNombre =new ComprobarNombre();
                     comprobarNombre.execute();
+                }
+                else{
+                    Toast.makeText(RecuperarContrasena.this, "Las contraseñas no coinciden", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -96,7 +77,7 @@ public class Registro extends AppCompatActivity {
             URL url;
             HttpURLConnection httpURLConnection;
             try {
-                url = new URL("https://sportsreserves.000webhostapp.com/ComprobarUsuario.php?username="+txtUsuario.getText());
+                url = new URL("https://sportsreserves.000webhostapp.com/ComprobarUsuario.php?username="+txtMiUsuario.getText());
                 httpURLConnection = (HttpURLConnection) url.openConnection();
                 if (httpURLConnection.getResponseCode() == HttpURLConnection.HTTP_OK) {
                     InputStream inputStream = httpURLConnection.getInputStream();
@@ -130,17 +111,17 @@ public class Registro extends AppCompatActivity {
         protected void onPostExecute(Void unused) {
             Log.v("valor",todo.length()+"");
             Log.v("valor",todo);
-            if (todo.length()!=19){
+            if (todo.length()!=22){
                 Log.v("valor","entra");
-                Toast.makeText(Registro.this, "Usuario registrado", Toast.LENGTH_SHORT).show();
-                Registro.Insertar recuperar =new Registro.Insertar();
+                Toast.makeText(RecuperarContrasena.this, "Contraseña actualizada", Toast.LENGTH_SHORT).show();
+                Recuperar recuperar =new Recuperar();
                 recuperar.execute();
             }else{
-                Toast.makeText(Registro.this, "El usuario ya existe", Toast.LENGTH_SHORT).show();
+                Toast.makeText(RecuperarContrasena.this, todo, Toast.LENGTH_SHORT).show();
             }
         }
     }
-    private class Insertar extends AsyncTask<Void, Void, Void>{
+    private class Recuperar extends AsyncTask<Void, Void, Void>{
 
         String todo;
         @Override
@@ -148,7 +129,7 @@ public class Registro extends AppCompatActivity {
             URL url;
             HttpURLConnection httpURLConnection;
             try {
-                url = new URL("https://sportsreserves.000webhostapp.com/Register.php?username="+txtUsuario.getText()+"&nombre="+txtNombre.getText()+"&apellidos="+txtApellidos.getText()+"&contrasena="+txtContrasena.getText());
+                url = new URL("https://sportsreserves.000webhostapp.com/RecuperarContrasena.php?username="+txtMiUsuario.getText()+"&contrasena="+txtNuevaContrasena1.getText());
                 httpURLConnection = (HttpURLConnection) url.openConnection();
                 if (httpURLConnection.getResponseCode() == HttpURLConnection.HTTP_OK) {
                     InputStream inputStream = httpURLConnection.getInputStream();
@@ -180,9 +161,9 @@ public class Registro extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(Void unused) {
-            Intent intentReg = new Intent(Registro.this, MainActivity.class);
-            Registro.this.startActivity(intentReg);
+            Intent intentReg = new Intent(RecuperarContrasena.this, MainActivity.class);
+            RecuperarContrasena.this.startActivity(intentReg);
             //Toast.makeText(RecuperarContrasena.this, todo, Toast.LENGTH_SHORT).show();
         }
     }
-    }
+}
