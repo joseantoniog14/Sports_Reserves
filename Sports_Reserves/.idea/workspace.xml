@@ -9,130 +9,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24ac3db5-b860-40de-85eb-2ab06ae9070f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/RecuperarContrasena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/entities/PerfilUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/entities/Reserva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/entities/ReservasList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_horas_padel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_recuperar_contrasena.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-en-rGB/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/androidTest/java/com/example/sport_reserves/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/ic_launcher-playstore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/debug/res/values/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/java/com/example/sport_reserves/AnularReservas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Horas_Gimnasio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/java/com/example/sport_reserves/Contacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Horas_Tenis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/java/com/example/sport_reserves/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Horas_Natacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/java/com/example/sport_reserves/Perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Horas_Baloncesto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/java/com/example/sport_reserves/Reservas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Horas_Padel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable/drawer_border.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable/header_bkg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable/menu_logo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/drawable/salir_logo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/activity_anular_reservas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_horas_gimnasio.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/activity_contacto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_horas_baloncesto.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/activity_perfil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_horas_natacion.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/activity_reservas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_horas_tenis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/nav_drawer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/layout/toolbar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/app/src/test/java/com/example/sport_reserves/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sport_Reserves/settings.gradle" beforeDir="false" />
+    <list default="true" id="24ac3db5-b860-40de-85eb-2ab06ae9070f" name="Changes" comment="Final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Anular.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/AnularReservas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/AnularReservas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/AppPreferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/AppPreferences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Cargando.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Cargando.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Contacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Contacto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Horas_Futbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Horas_Futbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Perfil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/PerfilFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Registro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/ReservaDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/ReservaDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Reservas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Reservas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/Salir.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sports_reserves/SalirFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/atras.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/atras.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/anular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/contacto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/headerbkg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_slideshow.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/miperfil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/reserva.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/salir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_anular_reservas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_anular_reservas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cargando.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cargando.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contacto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contacto.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_horas_futbol.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_horas_futbol.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_perfil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_perfil.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_reservas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_reservas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_anular.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_perfil.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_reservas.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_salir.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_second.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_reservas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_reservas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/nav_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,6 +146,14 @@
       <option name="presentableId" value="Default" />
       <updated>1702139604939</updated>
     </task>
+    <task id="LOCAL-00001" summary="Final">
+      <created>1703159120121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703159120121</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,5 +166,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
 </project>
